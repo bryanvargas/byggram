@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no')
+    link(href='https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script:400,800' rel='stylesheet')
+    link(rel='stylesheet' href='css/app.css')
+  body
+    section#main-container
+    footer.site-footer
+      .container
+        .row
+          .col.s12.l3.center-align
+            a.dropdown-button.btn.btn-flat(href='#', data-activates='dropdown1') Idioma
+            ul#dropdown1.dropdown-content
+              li
+                a(href='#!') Español
+              li
+                a(href='#!') Ingles
+          .col.s12.l3.push-l6.center-align
+            | &#0169 2017 Belerofonte            
+    script(src='js/jquery.min.3.1.js')
+    script(src='js/materialize.min.js')
+    script(type='application/javascript' src='app.js')       
